@@ -1,3 +1,19 @@
+.bluecircle {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 219px;
+  top: 40px;
+}
+
+.lightbluecircle {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 227px;
+  top: 47px;
+}
+
 .header-logo {
   position: absolute;
   width: 146px;
