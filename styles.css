@@ -2,6 +2,7 @@
 .header {
   padding: 40px 219px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
