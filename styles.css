@@ -23,33 +23,34 @@
   color: #000;
   cursor: pointer;
   margin-right: 24px;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .header-menu__link:last-child {
   margin-right: 0;
 }
 
-.header-menu__link:after {
+.header-menu__link::after {
   position: absolute;
   display: block;
   content: "";
   left: 0;
   width: 100%;
   height: 2px;
-  background: #0056EC;
+  background: #0056ec;
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .header-menu__link:hover {
   opacity: .5;
 }
 
-.header-menu__link:hover:after, .menu__link_active:after {
-    opacity: 1;
+.header-menu__link:hover::after
+,
+.menu__link_active::after {
+  opacity: 1;
 }
-
 
 .main__title {
   position: absolute;
@@ -97,6 +98,3 @@
   color: white;
   text-decoration: none;
 }
-
-.section__image {}
-
