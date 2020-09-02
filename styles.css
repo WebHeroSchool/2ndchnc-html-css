@@ -46,8 +46,8 @@
   opacity: 0.5;
 }
 
-.header-menu__link:hover::after, 
-.menu__link_active::after {
+.header-menu__link:hover::after
+, .menu__link_active::after {
   opacity: 1;
 }
 
