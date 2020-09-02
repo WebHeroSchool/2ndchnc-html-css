@@ -47,7 +47,8 @@
 }
 
 .header-menu__link:hover::after
-, .menu__link_active::after {
+,
+.menu__link_active::after {
   opacity: 1;
 }
 
