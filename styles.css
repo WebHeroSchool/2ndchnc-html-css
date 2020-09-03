@@ -46,7 +46,7 @@
   opacity: 0.5;
 }
 
-.header-menu__link:hover::after, 
+.header-menu__link:hover::after,
 .menu__link_active::after {
   opacity: 1;
 }
