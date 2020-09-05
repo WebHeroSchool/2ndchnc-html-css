@@ -47,8 +47,7 @@
   opacity: 0.5;
 }
 
-.header-menu__link:hover::after
-,
+.header-menu__link:hover::after,
 .menu__link_active::after {
   opacity: 1;
 }
@@ -66,6 +65,7 @@
 .main__title-text_hightlight {
   background: #ecf3ff;
 }
+
 .main__subtitle {
   margin-bottom: 41px;
   font-family: 18px/21px "RobotoMedium", arial, sans-serif;
@@ -85,3 +85,4 @@
 .main__button:hover {
   opacity: 0.5;
 }
+
