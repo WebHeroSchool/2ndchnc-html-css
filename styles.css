@@ -1,3 +1,7 @@
+body {
+  margin: 0
+}
+
 .header {
   padding: 40px 46px;
   display: flex;
@@ -54,6 +58,7 @@
 
 .main__title {
   font: 50px/66px "PTSerifBold", arial, sans-serif;
+  margin: 0;
 }
 
 .main__title-text_hightlight {
@@ -63,6 +68,7 @@
 .main__subtitle {
   font: 18px/21px "RobotoMedium", arial, sans-serif;
   font-weight: 500;
+  margin: 0;
 }
 
 .main__button {
