@@ -61,12 +61,14 @@
 }
 
 .main__subtitle {
-  font-family: 18px/21px "RobotoMedium", arial, sans-serif;
+  font: 18px/21px "RobotoMedium", arial, sans-serif;
+  font-weight: 500;
 }
 
 .main__button {
   display: inline-block;
-  font-family: 14px/16px "RobotoMedium", arial, sans-serif;
+  font: 14px/16px "RobotoMedium", arial, sans-serif;
+  font-weight: 500;
   padding: 14px 16px;
   color: #fff;
   background: #0056ec;
