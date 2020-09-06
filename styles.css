@@ -1,13 +1,13 @@
+body {
+  margin: 0;
+}
+
 .header {
-  padding: 40px 219px;
+  padding: 40px 46px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.header-logo {
-  width: 190px;
-  height: 35px;
+  margin-bottom: 100px;
 }
 
 .header-menu {
@@ -51,49 +51,38 @@
   opacity: 1;
 }
 
-.main__title {
-  position: absolute;
-  width: 434px;
-  height: 195px;
-  left: 218px;
-  top: 212px;
-  font-family: "PTSerifBold", sans-serif;
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 66px;
-  display: flex;
-  align-items: center;
+.main {
+  padding: 0 63% 100px 46px;
+  background: top right no-repeat url(img/Frame.svg);
 }
 
-.main__text {
-  position: absolute;
-  width: 367px;
-  height: 43px;
-  left: 218px;
-  top: 447px;
-  font-family: "RobotoMedium", sans-serif;
+.main__title {
+  font: 50px/66px "PTSerifBold", arial, sans-serif;
+  margin-top: 0;
+}
+
+.main__title-text_hightlight {
+  background: #ecf3ff;
+}
+
+.main__subtitle {
+  font: 18px/21px "RobotoMedium", arial, sans-serif;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
+  margin-top: 0;
 }
 
 .main__button {
-  position: absolute;
-  width: 209px;
-  height: 44px;
-  left: 219px;
-  top: 545px;
-  background: #0056ec;
-  border-radius: 4px;
-  font-family: "RobotoMedium", sans-serif;
+  display: inline-block;
+  font: 14px/16px "RobotoMedium", arial, sans-serif;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: white;
-  cursor: pointer;
+  padding: 14px 16px;
+  color: #fff;
+  background: #0056ec;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity 0.5s;
 }
 
-.button__link {
-  color: white;
-  text-decoration: none;
+.main__button:hover {
+  opacity: 0.5;
 }
