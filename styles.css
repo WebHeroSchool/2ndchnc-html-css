@@ -10,6 +10,15 @@ input {
   .header-menu {
     display: none;
   }
+  .logo {
+    display: none;
+  }
+
+  .pic2 {
+    position: absolute;
+    top: 31px;
+    left: 32px;
+  }
 
   .hidden-menu {
     display: block;
@@ -66,7 +75,7 @@ input {
     text-align: center;
     background: top right no-repeat url(img/Frame.svg);
     background-position: top center;
-    padding: 74% 0 0;
+    padding: 64% 0 0;
     background-size: 74%;
   }
 
@@ -74,7 +83,7 @@ input {
     padding: 0 15%;
     align-items: center;
     text-align: center;
-    margin-bottom: 44px;
+    margin-bottom: 40px;
     font: bold 30px/40px "PTSerifBold", arial, sans-serif;
   }
 
@@ -87,7 +96,8 @@ input {
     align-items: center;
     text-align: center;
     margin-bottom: 25px;
-    font: 500 16px/19px "RobotoMedium", arial, sans-serif;
+    font: 500 16px/18px "RobotoMedium", arial, sans-serif;
+    width: 270px;
   }
 
   .main__button {
@@ -107,6 +117,10 @@ input {
 }
 
 @media (min-width: 769px) {
+  .mlogo {
+    display: none;
+  }
+
   .header {
     padding: 40px 46px;
     display: flex;
