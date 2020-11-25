@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  max-width: 1920px;
 }
 
 input {
@@ -93,12 +94,11 @@ input {
   }
 
   .main__subtitle {
-    padding: 0 15%;
+    padding: 0 25%;
     align-items: center;
     text-align: center;
     margin-bottom: 25px;
     font: 500 16px/18px "RobotoMedium", arial, sans-serif;
-    width: 270px;
   }
 
   .main__button {
@@ -176,7 +176,7 @@ input {
   }
 
   .main {
-    padding: 0 53% 100px 46px;
+    padding: 0 57% 100px 46px;
     background: top right 47px no-repeat url(img/Frame.svg);
   }
 
@@ -193,7 +193,7 @@ input {
     font: 500 18px/21px "RobotoMedium", arial, sans-serif;
     margin-top: 0;
     padding-bottom: 31px;
-    width: 367px;
+    width: 80%;
   }
 
   .main__button {
