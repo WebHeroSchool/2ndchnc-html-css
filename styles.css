@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  max-width: 1920px;
 }
 
 input {
@@ -214,6 +213,10 @@ input {
 }
 
 @media (min-width: 1366px) {
+  body {
+    max-width: 1920px;
+  }
+
   .header {
     padding: 40px 219px;
     display: flex;
