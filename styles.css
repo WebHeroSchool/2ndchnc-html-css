@@ -1,9 +1,19 @@
+@keyframes flash {
+  to {
+    color: black;
+  }
+}
+
 body {
   margin: 0;
 }
 
 input {
   display: none;
+}
+
+.main__button {
+  animation: flash 1s 7 ease-in-out;
 }
 
 @media (max-width: 768px) {
