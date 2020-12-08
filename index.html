@@ -2,14 +2,30 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>app.creation</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="fonts.css">
   </head>
-
  <body>
     <header class="header">
-        <img src="img/logo.svg">
+        <img class="logo" src="img/logo.svg" alt="логотип">
+        <div class="mlogo">
+          <img class="pic1" src="img/2.svg" alt="logo1">
+          <img class="pic2" src="img/1.svg" alt="logo2">
+        </div>
+        <label class="mobile">
+          <span class="first"></span>
+          <span class="second"></span>
+          <span class="third"></span>
+        </label>
+        <ul class="hidden-menu">
+          <li><a href="#">start</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
       <nav class="header-menu">
         <a class="header-menu__link" href="#">start</a>
         <a class="header-menu__link menu__link_active" href="#">services</a>
@@ -18,7 +34,6 @@
         <a class="header-menu__link" href="#">contact us</a>
       </nav>
     </header>
-
     <section class="main">
         <h1 class="main__title">
           Buildings an App
@@ -26,9 +41,8 @@
             Without Design Expertise?
           </span>
         </h1>
-        <p class="main__subtitle">I help tech startups design better digital products without hiring a full-time designer</p>
+        <p class="main__subtitle">I help tech startups design better digital products without hiring a&nbsp;full-time designer</p>
         <a class="main__button" href="#">Shedule free consultation</a>
-      </main>
     </section>
   </body>
 </html>
